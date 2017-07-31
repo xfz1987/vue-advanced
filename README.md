@@ -1,7 +1,7 @@
 # 安装环境
 > 1.查看vue安装版本 vue -V
 > 1.全局安装 vue-cli npm install vue-cli -g
-> 2.vue init webpack [project-name] > 选择安装rooter > 选择安装vuex 
+> 2.vue init webpack [project-name] > 选择安装rooter > 然后一路No
 > 3.cd [project-name] > npm install
 > 4.npm install jquery less less-loader --save-dev
 # 新建目录
