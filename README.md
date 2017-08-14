@@ -368,8 +368,10 @@ export default {
   computed : {
     ...mapState({
      _count: state => state.count
-      // '_count'
     }),
+    ...mapState([
+      'count'
+    ]),
     ...mapGetters([
         'num'
     ])
