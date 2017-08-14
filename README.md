@@ -304,8 +304,8 @@ const state = {
 }
 //公共方法
 const mutations = {
-    add(state){
-        state.count++;
+    add(state, n){
+        state.count + n.a + n.b;
     },
     struc(state){
         state.count--;
@@ -347,7 +347,7 @@ new Vue({
 ```
  <p>{{ $store.state.count }} - {{_count_}}</p>
  <p>
-   <button @click="$store.commit('add')">add</button> 
+   <button @click="$store.commit('add', {a:1,b:2})">add</button> 
    <button @click="struc">struc</button>
 </p>
 <p>{{ num }}</p>
